@@ -18,14 +18,11 @@ def get_max_profit(stock_prices):
         max_profit = max(new_profit,max_profit)
         #print(new_profit,max_profit)
     if ln == 1:
-        raise Exception ##just one stock price 
+        raise Exception ##case: just one stock price 
     else:
         return max_profit
         #print(max_profit)
      
-	#return max_profit
-    #max_index = i if stock_prices[i] == mx else 0
-    #print(max_index)
 
 
 
